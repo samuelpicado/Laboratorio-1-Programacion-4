@@ -432,3 +432,6 @@ Este enfoque responde directamente a las tendencias actuales del mercado laboral
 Integración de desarrollo de software, Machine Learning y aseguramiento de calidad en un mismo perfil técnico.
 
 Enfoque en automatización, despliegue y escalabilidad, más allá del desarrollo teórico de modelos.
+
+# Diseño hecho en Figma
+ https://www.figma.com/make/WEBg3CYPDoMJ56FU6m33SB/Implementar-instrucciones-del-archivo?p=f&t=bP6UCjbnzHARlRZ3-0
