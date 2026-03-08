@@ -578,9 +578,10 @@ img {
 
 .proyectos__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   align-items: start;
+  max-width: 860px;
 }
 
 .project-card {
@@ -618,6 +619,22 @@ img {
 .project-card__icon-wrap--blue   { background: rgba(0, 114, 255, 0.15); }
 .project-card__icon-wrap--purple { background: rgba(124, 58, 237, 0.15); }
 .project-card__icon-wrap--green  { background: rgba(16, 185, 129, 0.15); }
+
+.project-card__icon--text {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--accent-cyan);
+}
+
+.project-card:nth-child(2) .project-card__icon--text { color: #a78bfa; }
+
+.contact-item__icon-text {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary);
+}
 
 .project-card__category {
   font-size: 0.68rem;
@@ -981,10 +998,6 @@ img {
     margin: 0 auto;
   }
 
-  .servicios__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .contacto__grid {
     grid-template-columns: 1fr;
   }
@@ -1051,10 +1064,6 @@ img {
     flex-direction: column;
     gap: 4px;
     margin-bottom: 32px;
-  }
-
-  .servicios__grid {
-    grid-template-columns: 1fr;
   }
 
   .contact-form-wrap {
